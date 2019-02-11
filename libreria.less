@@ -1,0 +1,46 @@
+/* Variables */
+
+@negro:	 #000000;
+@rojo:	 #FF0000;
+@azul:	 #0000FF;
+@verde:	 #00FF00;
+
+@grosor:	1px;
+@radio:		10px;
+@sombra:	5px 5px 5px #AAAAAA;
+
+.estandar {
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+.caja(@ancho: auto, @alto: auto, @flota: left, @color: none, @desbordamiento: hidden){
+	width:				@ancho;
+	height:				@ancho;
+	float:				@flota;
+	background-color:	@color;
+	-webkit-overflow:	@desbordamiento;
+	-moz-overflow:		@desbordamiento;
+	-ms-overflow:		@desbordamiento;
+	-o-overflow:		@desbordamiento;
+	overflow:			@desbordamiento;
+}
+
+.borde(@grosor: 1px, @estilo: solid, @color: #111, @rad: 0px) {
+	border: @grosor @estilo @color;
+	-webkit-border-radius: @rad;
+	-moz-border-radius: @rad;
+	-ms-border-radius: @rad;
+	-o-border-radius: @rad;
+	border-radius: @rad;
+}
+
+.bshadow(@sombra: 5px 5px 5px #AAAAAA){
+	-webkit-box-shadow: @sombra;
+	-moz-box-shadow: @sombra;	
+	box-shadow: @sombra;
+}

@@ -1,0 +1,58 @@
+/* Variables */
+.estandar {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+#caja1 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #FF0000;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #AAAAAA;
+}
+#caja2 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #0000FF;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #AAAAAA;
+}
+#caja3 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #AAAAAA;
+}
+#caja4 {
+  width: 250px;
+  height: 250px;
+  float: right;
+  background-color: #00FF00;
+  -webkit-overflow: hidden;
+  -moz-overflow: hidden;
+  -ms-overflow: hidden;
+  -o-overflow: hidden;
+  overflow: hidden;
+  border: 2px solid #111AAA;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: -25px 25px 5px #AAAAAA;
+  -moz-box-shadow: -25px 25px 5px #AAAAAA;
+  box-shadow: -25px 25px 5px #AAAAAA;
+}
+
+/*# sourceMappingURL=estilos.css.map */

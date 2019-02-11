@@ -1,0 +1,32 @@
+@import "libreria.less";
+
+#caja1 {
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: #FF0000;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #AAAAAA;
+}
+
+#caja2 {
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: @azul;
+	border: @grosor solid @negro;
+	border-radius: @radio;
+	box-shadow: @sombra;
+}
+
+#caja3 {
+	.estandar;
+	box-shadow: @sombra;
+}
+
+#caja4 {
+	.caja(250px, 250px, right, @verde, hidden);
+	.borde(2px, solid, #111AAA, 50px);
+	.bshadow(-25px 25px 5px #AAAAAA);
+}
